@@ -1,20 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//int currTime=0,queueTimer=10,total;
 int current_time=0,queue_timer=10,total;
 struct Process
 {
-	//int pid;
+	
 	int process_id;
 	int compTime;
-	//int arrival;
 	int arrival_time;
 	int start;
 	int priority;
-	//int brusttime;
 	int brust_time;
-	//int store;
 	int temp;
 };
 
